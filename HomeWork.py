@@ -34,7 +34,7 @@ def date_check(day, month, year):
     return False
 
 
-# print(date_check(29,21,2021))
+# print(date_check(29,21,2022))
 
 def diary(records, start_date):
     file = open("diary", "w")
