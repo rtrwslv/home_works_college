@@ -1,6 +1,4 @@
 from datetime import datetime, timedelta
-
-
 def digit_count(input_string):  # 13.09
     """
         Function count percentage of substrings where lowercase symbols prevails in list of strings
@@ -14,7 +12,7 @@ def digit_count(input_string):  # 13.09
                 uppers_local += 1
         if uppers_local > len(i) - uppers_local:
             uppers += 1
-    print(f"{int(uppers / len(input_list) * 100)}%")
+    return(f"{int(uppers / len(input_list) * 100)}%")
 
 
 def date_check(day, month, year):
@@ -28,7 +26,7 @@ def date_check(day, month, year):
             leap = False
         if year % 4 == 0 or year & 400 == 0:
             leap = True
-        if 12 > month > 1:
+        if 12 >= month > 1:
             if month % 2 == 0:
                 day_max = 31
                 if month == 2 and leap:
@@ -40,7 +38,7 @@ def date_check(day, month, year):
     return False
 
 
-# print(date_check(29,21,2022))
+#print(date_check(31, 12, 2022))
 
 def diary(records, start_date):
     """
