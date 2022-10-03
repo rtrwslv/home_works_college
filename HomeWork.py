@@ -48,8 +48,6 @@ def diary(records, start_date):
     """
     file = open("diary", "w")
     for i in range(len(records)):
-        file.write(str((datetime.strptime(start_date, '%d-%m-%Y')
-                        + timedelta(days=i)).strftime('%d-%m-%Y'))
-                   + " " + str(records[i]) + '\n')
+        file.write(str((datetime.strptime(start_date, '%d-%m-%Y') + timedelta(days=i)).strftime('%d-%m-%Y')) + " " + str(records[i]) + '\n')
 
 # diary(["мы тонем", "я нашел ящик рома", "все не так плохо"], "15-07-2004")
