@@ -1,4 +1,3 @@
-import string
 import HomeWork as hm
 import pytest
 
