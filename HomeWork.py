@@ -1,10 +1,9 @@
+"""Function contains all of homeworks"""
 from datetime import datetime, timedelta
 
 
 def digit_count(input_string):  # 13.09
-    """
-    Function count percentage of substrings where lowercase symbols prevails in list of strings
-    """
+    """Function count percentage of substrings where lowercase symbols prevails in list of strings"""
     uppers = 0
     input_list = input_string.split()
     for i in input_list:
