@@ -1,3 +1,3 @@
 Заходит как-то Альберт Андреевич посмотреть домашки Ярослава, а там армяне в нарды играют
-![IMG_8643](https://user-images.githubusercontent.com/83144402/197639782-77b07a0b-20ea-427c-9083-8313949f2630.gif)
-![253902491_0-473-3150-2048_1920x0_80_0_0_2426a7d8b54e527bcd569c7be440d165](https://user-images.githubusercontent.com/83144402/197639990-1a413424-1a29-4d45-ae24-ca98577b24b1.jpeg)
+![thinking-emoji-28](https://user-images.githubusercontent.com/83144402/197640230-c120b9bd-15e0-4246-a674-5e8beb36cffe.gif)
+
