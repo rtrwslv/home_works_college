@@ -1,6 +1,3 @@
-from tabnanny import check
-
-
 def date_check(day, month, year):
     """
         Function validate date and return True or False as a result
