@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 def digit_count(input_string):  # 13.09
     """
-        Function count percentage of substrings where lowercase symbols prevails in list of strings
+    Function count percentage of substrings where lowercase symbols prevails in list of strings
     """
     uppers = 0
     input_list = input_string.split()
@@ -14,12 +14,12 @@ def digit_count(input_string):  # 13.09
                 uppers_local += 1
         if uppers_local > len(i) - uppers_local:
             uppers += 1
-    return (f"{int(uppers / len(input_list) * 100)}%")
+    return f"{int(uppers / len(input_list) * 100)}%"
 
 
 def date_check(day, month, year):
     """
-        Function validate date and return True or False as a result
+    Function validate date and return True or False as a result
     """
     leap = False
     day_max = 30
@@ -42,13 +42,23 @@ def date_check(day, month, year):
 
 # print(date_check(31, 12, 2022))
 
+
 def diary(records, start_date):
     """
-        Function makes file with pirate diary, using given arguments
+    Function makes file with pirate diary, using given arguments
     """
     file = open("diary", "w")
     for i in range(len(records)):
-        file.write(str((datetime.strptime(start_date, '%d-%m-%Y')
-                        + timedelta(days=i)).strftime('%d-%m-%Y')) + " " + str(records[i]) + '\n')
+        file.write(
+            str(
+                (
+                    datetime.strptime(start_date, "%d-%m-%Y") + timedelta(days=i)
+                ).strftime("%d-%m-%Y")
+            )
+            + " "
+            + str(records[i])
+            + "\n"
+        )
+
 
 # diary(["мы тонем", "я нашел ящик рома", "все не так плохо"], "15-07-2004")
