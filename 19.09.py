@@ -2,12 +2,13 @@ def date_check(day, month, year):
     """
     Function validate date and return True or False as a result
     """
+    four = 4
     leap = False
     day_max = 30
     if year > 0:
         if year % 100 == 0:
             leap = False
-        if year % 4 == 0 or year & 400 == 0:
+        if year % four == 0 or year & four * 100 == 0:
             leap = True
         if 12 >= month > 1:
             if month % 2 == 0:
