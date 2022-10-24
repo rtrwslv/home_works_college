@@ -1,4 +1,3 @@
-"""Function contains all of homeworks"""
 from datetime import datetime, timedelta
 
 
@@ -17,9 +16,7 @@ def digit_count(input_string):  # 13.09
 
 
 def date_check(day, month, year):
-    """
-    Function validate date and return True or False as a result
-    """
+    """Function validate date and return True or False as a result"""
     leap = False
     day_max = 30
     if year > 0:
@@ -27,7 +24,7 @@ def date_check(day, month, year):
             leap = False
         if year % 4 == 0 or year & 400 == 0:
             leap = True
-        if 12 >= month > 1:
+        if 1 < month <= 12:
             if month % 2 == 0:
                 day_max = 31
                 if month == 2 and leap:
@@ -43,9 +40,7 @@ def date_check(day, month, year):
 
 
 def diary(records, start_date):
-    """
-    Function makes file with pirate diary, using given arguments
-    """
+    """Function makes file with pirate diary, using given arguments"""
     file = open("diary", "w")
     for i in range(len(records)):
         file.write(
