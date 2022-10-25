@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 
+
 def diary(records, start_date):
     """Function makes file with pirate diary, using given arguments"""
     file = open("diary", "w")
@@ -14,4 +15,3 @@ def diary(records, start_date):
             + str(records[i])
             + "\n"
         )
-
