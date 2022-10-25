@@ -17,6 +17,3 @@ def date_check(day, month, year):
             if day <= day_max:
                 return True
     return False
-
-
-# print(date_check(31, 12, 2022))
