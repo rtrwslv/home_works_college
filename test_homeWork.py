@@ -1,4 +1,4 @@
-import HomeWork as HW
+import HomeWork as Hw
 import pytest
 
 tests = [("ABc dbE FRl Ama", "50%"), ("NDp Lka nuR vtE", "25%")]
