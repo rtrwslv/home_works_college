@@ -53,6 +53,3 @@ def diary(records, start_date):
             + str(records[i])
             + "\n"
         )
-
-
-# diary(["мы тонем", "я нашел ящик рома", "все не так плохо"], "15-07-2004")
