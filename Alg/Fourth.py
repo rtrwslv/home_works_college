@@ -8,6 +8,7 @@ def minimumAbsDifference(arr):
     for i in range(len(arr) - 1):
         if arr[i + 1] - arr[i] == min:
             result += [[arr[i], arr[i + 1]]]
-    return(result)
+    return result
 
-print(minimumAbsDifference([3,8,-10,23,19,-4,-14,27]))
+
+print(minimumAbsDifference([ 3, 8, -10, 23, 19, -4, -14, 27 ]))
